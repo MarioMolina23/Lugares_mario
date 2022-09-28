@@ -3,6 +3,7 @@ package com.lugares_mario
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import android.util.Log
 import android.widget.Toast
 import com.google.firebase.FirebaseApp
 import com.google.firebase.auth.FirebaseAuth
@@ -61,7 +62,29 @@ class MainActivity : AppCompatActivity() {
     }
 
     private fun hacerLogin() {
+        val email = binding.etCorreo.text.toString()
+        val clave = binding.etClave.text.toString()
 
+        //Se hace el login
+        auth.signInWithEmailAndPassword(email,clave)
+            .addOnCompleteListener(this) { task ->
+                if (task.isSuccessful) {
+                    Log.d("Autenticando", "Se autenticó")
+                    val user = auth.currentUser
+                    refresca(user)
+                }else{
+                    Log.e("Autenticando", "Error de Autenticación")
+                    Toast.makeText(baseContext, "Falló",Toast.LENGTH_LONG).show() //Así es como se muestra un msj
+                    refresca(null)
+                }
+            }
+        Log.d("Autenticando","Sale del proceso...")
     }
 
+    //Esto hará que una vez autenticado, no pida autenticarse al menos que haya cerrado sesión.
+    public override fun onStart() {
+        super.onStart()
+        val usuario = auth.currentUser
+        refresca(usuario)
+    }
 }

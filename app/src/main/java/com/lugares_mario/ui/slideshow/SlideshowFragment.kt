@@ -8,6 +8,7 @@ import android.widget.TextView
 import androidx.fragment.app.Fragment
 import androidx.lifecycle.ViewModelProvider
 import com.lugares_mario.databinding.FragmentSlideshowBinding
+import com.lugares_mario.viewmodel.SlideshowViewModel
 
 class SlideshowFragment : Fragment() {
 
