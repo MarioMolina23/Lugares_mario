@@ -7,7 +7,7 @@
     android:layout_height="match_parent"
     android:orientation="vertical"
     android:padding="20dp"
-    tools:context=".ui.lugar.AddLugarFragment" >
+    tools:context=".ui.lugar.UpdateLugarFragment" >
 
     <EditText
         android:id="@+id/et_nombre"
@@ -45,5 +45,11 @@
         android:id="@+id/bt_update_agregar"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="@string/bt_add_lugar" />
+        android:text="@string/bt_update_lugar" />
+
+    <ImageButton
+        android:id="@+id/imageButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ic_baseline_delete_24" />
 </LinearLayout>

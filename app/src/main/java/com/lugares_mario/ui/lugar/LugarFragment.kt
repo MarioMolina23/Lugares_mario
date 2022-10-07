@@ -39,8 +39,8 @@ class LugarFragment : Fragment() {
 
         lugarViewModel = ViewModelProvider(this)[LugarViewModel::class.java]
 
-        lugarViewModel.getLugares.observe(viewLifecycleOwner) { lugares ->
-            lugarAdapter.setData(lugares)
+        lugarViewModel.getLugares.observe(viewLifecycleOwner) {
+                lugares -> lugarAdapter.setLugares(lugares)
         }
 
         return binding.root

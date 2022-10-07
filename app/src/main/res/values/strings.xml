@@ -22,7 +22,9 @@
     <string name="msg_telefono">Teléfono (9999–9999)</string>
     <string name="msg_web">Sitio WEB</string>
     <string name="bt_add_lugar">AGREGAR LUGAR</string>
+    <string name="bt_update_lugar">ACTUALIZAR LUGAR</string>
     <string name="msg_lugar_added">Lugar agregado…</string>
+    <string name="msg_lugar_updated">Lugar actualizado…</string>
     <string name="msg_data">Faltan Datos!</string>
 
 </resources>
