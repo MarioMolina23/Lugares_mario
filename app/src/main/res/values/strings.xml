@@ -26,7 +26,7 @@
     <string name="msg_lugar_added">Lugar agregado…</string>
     <string name="msg_lugar_updated">Lugar actualizado…</string>
     <string name="msg_data">Faltan Datos!</string>
-    <string name="bt_delete_lugar">Eliminar lugara</string>
+    <string name="bt_delete_lugar">Eliminar lugar</string>
     <string name="msg_lugar_deleted">Lugar eliminado…</string>
     <string name="msg_pregunta_eliminar">Está seguro de eliminar el lugar?…</string>
     <string name="msg_si">Si</string>
@@ -42,6 +42,13 @@
     <string name="tv_altura_lb">Altura</string>
     <string name="msg_saludos">Saludos amigos</string>
     <string name="msg_mensaje_correo">Le escribo este correo para</string>
+    <string name="msg_datos">Faltan datos</string>
+    <string name="msg_firebase_add">Lugar agregado</string>
+    <string name="msg_firebase_update">Lugar modificado</string>
+    <string name="msg_firebase_delete">Lugar eliminado</string>
+    <string name="msg_firebase_no_add">ERROR: Lugar no agregado</string>
+    <string name="msg_firebase_no_update">ERROR: Lugar no actualizado</string>
+    <string name="msg_firebase_no_delete">ERROR: Lugar no eliminado</string>
     <string name="error">Error</string>
 
 </resources>
