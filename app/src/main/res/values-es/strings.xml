@@ -1,5 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name" translatable="false">Lugares_Mario</string>
+    <string name="app_name">Lugares_Mario</string>
     <string name="tv_correo">Correo</string>
     <string name="tv_clave">Contraseña</string>
     <string name="title_activity_principal">Principal</string>
@@ -65,6 +66,5 @@
     <string name="msg_subiendo_audio">Subiendo Nota Audio</string>
     <string name="msg_subiendo_imagen">Subiendo imagen</string>
     <string name="todo">Luego...</string>
-    <string name="default_web_client_id_r" translatable="false">865111214241-9tj474ne4frv0rsptk0hiko5gpbfnepo.apps.googleusercontent.com</string>
 
 </resources>

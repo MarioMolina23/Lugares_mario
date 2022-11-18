@@ -1,7 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name" translatable="false">Lugares_Mario</string>
-    <string name="tv_correo">Correo</string>
-    <string name="tv_clave">Contraseña</string>
+    <string name="app_name">Lugares_Mario</string>
+    <string name="tv_correo">Email</string>
+    <string name="tv_clave">Password</string>
     <string name="title_activity_principal">Principal</string>
     <string name="navigation_drawer_open">Open navigation drawer</string>
     <string name="navigation_drawer_close">Close navigation drawer</string>
@@ -10,24 +11,24 @@
     <string name="nav_header_desc">Navigation header</string>
     <string name="action_settings">Settings</string>
 
-    <string name="menu_lugar">Lugares</string>
+    <string name="menu_lugar">Places</string>
     <string name="menu_gallery">Gallery</string>
     <string name="menu_slideshow">Slideshow</string>
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
 
-    <string name="msg_nombre">Nombre del lugar</string>
+    <string name="msg_nombre">Name</string>
     <string name="msg_correo">Email (xxxx@abc.com)</string>
     <string name="msg_imagen">Imagen del lugar</string>
-    <string name="msg_telefono">Teléfono (9999–9999)</string>
-    <string name="msg_web">Sitio WEB</string>
-    <string name="bt_add_lugar">AGREGAR LUGAR</string>
-    <string name="bt_update_lugar">ACTUALIZAR LUGAR</string>
-    <string name="msg_lugar_added">Lugar agregado…</string>
-    <string name="msg_lugar_updated">Lugar actualizado…</string>
+    <string name="msg_telefono">Phone (9999–9999)</string>
+    <string name="msg_web">Web site</string>
+    <string name="bt_add_lugar">Add</string>
+    <string name="bt_update_lugar">Update</string>
+    <string name="msg_lugar_added">Added…</string>
+    <string name="msg_lugar_updated">Updated…</string>
     <string name="msg_data">Faltan Datos!</string>
-    <string name="bt_delete_lugar">Eliminar lugar</string>
-    <string name="msg_lugar_deleted">Lugar eliminado…</string>
+    <string name="bt_delete_lugar">Delete</string>
+    <string name="msg_lugar_deleted">Deleted…</string>
     <string name="msg_pregunta_eliminar">Está seguro de eliminar el lugar?…</string>
     <string name="msg_si">Si</string>
     <string name="msg_no">No</string>
@@ -65,6 +66,5 @@
     <string name="msg_subiendo_audio">Subiendo Nota Audio</string>
     <string name="msg_subiendo_imagen">Subiendo imagen</string>
     <string name="todo">Luego...</string>
-    <string name="default_web_client_id_r" translatable="false">865111214241-9tj474ne4frv0rsptk0hiko5gpbfnepo.apps.googleusercontent.com</string>
 
 </resources>
